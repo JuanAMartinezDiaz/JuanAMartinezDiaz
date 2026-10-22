@@ -49,14 +49,18 @@ The public reference can export a JSON evidence package correlating effective po
 ### AI Build Lab
 Applied AI projects built mission-by-mission to test ideas in agentic systems, workflow automation, governance, visualization, and local-model experimentation.
 
-## Public engineering
+## Projects
 
-| Project | What it demonstrates |
-|---|---|
-| [Sentinel Governed Workflow Twin](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin) | Governed agentic execution, authority arbitration, protected actions, evidence generation, workflow metrics, and synthetic enterprise examples |
-| [JuanMartinez.ai](https://github.com/JuanAMartinezDiaz/juanmartinez-ai-site) | Executive AI-governance publishing, Decision X-Ray, AI Build Lab, and interactive studies |
-| [Career Rebuild Navigator](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel) | Rule-based career-support workflow prototype with quality gates and human review; LLM integration planned |
-| [GuidedWork AI](https://github.com/JuanAMartinezDiaz/guidedwork-ai-beta) | Human-centered workflow assistance and applied AI product experimentation |
+My flagship project is **Sentinel**, developed through **Bounded Agentic Intelligence (BAI)**. These public projects connect AI governance with working software, explicit human authority, and inspectable evidence.
+
+| Project | Purpose and demonstrated capabilities | Current stage | Explore |
+|---|---|---|---|
+| **Sentinel Governed Workflow Twin** | Python reference engine for authority checks, approval gates, action-bound signed permits, protected execution, and JSON execution evidence; includes a synthetic 17-step financial-services workflow | Public synthetic reference implementation | [Live visualization](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/) · [Code and run instructions](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin) · [Evidence model](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/evidence-model.md) |
+| **Decision X-Ray / JuanMartinez.ai** | Interactive visualization of proposal, authorization, human approval, execution permit, action, and evidence; supported by practical AI-governance writing and AI Build Lab studies | Public website and explanatory visualization | [Website](https://www.juanmartinez.ai) · [Source](https://github.com/JuanAMartinezDiaz/juanmartinez-ai-site) |
+| **GuidedWork AI / ProAgent Local** | Agent-builder prototype for defining role, mission, autonomy, memory posture, and permission policy, with JSON profile export | Early product and configuration prototypes; local-model integration planned | [Source and capabilities](https://github.com/JuanAMartinezDiaz/guidedwork-ai-beta) |
+| **Career Rebuild Navigator** | Career-support workflow covering job sourcing, CV and job-fit review, application preparation, and placement case management with human review | Browser-based rule-driven MVP; LLM integration planned | [Live prototype](https://career-rebuild-navigator-vercel.vercel.app/) · [Source](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel) |
+
+**Review Sentinel:** [risk → control → test evidence and acceptance roadmap](PROJECTS.md). The browser visualization explains control paths; the Python reference provides executable checks. Synthetic examples and public reference tests do not establish production readiness or measured customer savings.
 
 ## Principles I build around
 
