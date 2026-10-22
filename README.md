@@ -18,6 +18,29 @@ The public Sentinel reference lets visitors explore selected controls through sy
 
 **[Explore the demonstration](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/) · [Inspect the code and tests](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin)**
 
+## AI Build Lab: putting governance to work
+
+I build guided missions that help people use AI on practical problems, examine the evidence, and decide what authority to delegate.
+
+### Featured mission: Career Recovery System — Mission 15
+
+This mission starts with a person's career evidence, compares it with suitable roles, and defines what an application agent may do before it acts.
+
+| Risk | How the mission addresses it | What you can inspect |
+|---|---|---|
+| AI adds an unsupported career claim | Collect supporting evidence before rewriting; flag gaps or leave the claim out | Career Evidence Record and evidence-check requirements |
+| An agent applies outside the user's requirements | Define target roles, locations, work arrangements, approved documents, and review requirements | Written application-authority requirements |
+| Applications are sent without a clear record | Record jobs reviewed and applications submitted | Job and application ledger requirements |
+
+**Evidence status:** the linked material documents the mission design and packet contents. It does not establish that an automated agent has passed these controls in an execution test.
+
+**[Explore Mission 15](https://www.juanmartinez.ai/ai-build-lab#mission-15) · [Read the design and authority requirements](https://www.juanmartinez.ai/career-recovery#authority) · [Inspect the published source](https://github.com/JuanAMartinezDiaz/juanmartinez-ai-site/blob/main/career-recovery/index.html)**
+
+Two related missions examine human judgment:
+
+- **[Mission 13: Use a Thought Partner on a Real Decision](https://www.juanmartinez.ai/ai-build-lab#mission-13)** — identify assumptions, consider contrary evidence, and record changes in reasoning.
+- **[Mission 14: Build Your Own Thought Partner](https://www.juanmartinez.ai/ai-build-lab#mission-14)** — define evidence standards, memory boundaries, and when the system must return a decision to the user.
+
 ## Selected projects
 
 | Project | What you’ll find |
