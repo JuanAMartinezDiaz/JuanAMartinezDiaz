@@ -55,7 +55,7 @@ Applied AI projects built mission-by-mission to test ideas in agentic systems, w
 |---|---|
 | [Sentinel Governed Workflow Twin](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin) | Governed agentic execution, authority arbitration, protected actions, evidence generation, workflow metrics, and synthetic enterprise examples |
 | [JuanMartinez.ai](https://github.com/JuanAMartinezDiaz/juanmartinez-ai-site) | Executive AI-governance publishing, Decision X-Ray, AI Build Lab, and interactive studies |
-| [Career Rebuild Navigator](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel) | Multi-stage AI-assisted workflow design with quality gates and human review |
+| [Career Rebuild Navigator](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel) | Rule-based career-support workflow prototype with quality gates and human review; LLM integration planned |
 | [GuidedWork AI](https://github.com/JuanAMartinezDiaz/guidedwork-ai-beta) | Human-centered workflow assistance and applied AI product experimentation |
 
 ## Principles I build around
