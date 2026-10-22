@@ -14,28 +14,37 @@ I work at the intersection of **AI governance, enterprise risk, and agentic work
 
 ## Featured build — Sentinel Governed Workflow Twin
 
-**[Open the live governance demo](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/)** · **[Inspect the source](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin)** · **18 automated governance tests**
+**[Open the live governance demo](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/)** · **[Inspect the source](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin)** · **[24 tests passed in CI on October 20, 2026](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/actions/runs/39463516644)**
 
 ![Sentinel Decision X-Ray](https://raw.githubusercontent.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/main/docs/assets/decision-xray2-live.png)
 
 The public reference implementation demonstrates authority registration, deterministic decision arbitration, human approval gates, signed execution permits, fail-closed protected execution, structured evidence, and a synthetic 17-step workflow twin.
 
+**Current stage:** synthetic public reference and controlled demonstration work. Public test results do not establish production readiness of the proprietary Sentinel product.
+
+**[Browse the project portfolio](PROJECTS.md)** · **[Review Sentinel release gates](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/release-readiness-framework.md)**
+
 ## Current work
 
-### Project Sentinel
+### Bounded Agentic Intelligence and Project Sentinel
+I am the founder of **Bounded Agentic Intelligence (BAI)**. Sentinel is my current focus.
+
 A governed workflow-intelligence platform focused on discovering how work is actually performed, identifying where agentic AI can improve it, defining step-level authority, enforcing consequential-action boundaries, and measuring whether the redesign helped.
 
 **Core engineering themes**
 - Workflow twins and baseline-to-redesign comparison
 - Step-level autonomy and authority
-- Non-bypassable action gates
+- Application-layer action gates, with deployment-specific isolation required for stronger enforcement
 - Human approval, escalation, and bounded fallback behavior
 - Tool and data-access permissions
 - Structured decision evidence and auditability
 - Operational measurement: cycle time, cost, quality, risk, human intervention, and control effectiveness
 
 ### Decision X-Ray 2.0
-A live 3D governance chamber for inspecting a consequential AI decision in motion: proposal, authorization gate, human authority, execution permit, protected action, and evidence trail.
+An interactive 3D governance visualization for inspecting a consequential AI decision in motion: proposal, authorization gate, human authority, execution permit, protected action, and evidence trail.
+
+### Execution evidence
+The public reference can export a JSON evidence package correlating effective policy and delegated authority with observed blocked, successful, or failed execution. Approval remains a caller assertion in this reference; authenticated approval and protected evidence storage are production requirements. [Inspect the evidence model](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/evidence-model.md).
 
 ### AI Build Lab
 Applied AI projects built mission-by-mission to test ideas in agentic systems, workflow automation, governance, visualization, and local-model experimentation.
@@ -60,7 +69,7 @@ Applied AI projects built mission-by-mission to test ideas in agentic systems, w
 
 ## Professional background
 
-- Independent AI Governance & Workflow Modernization
+- Founder, Bounded Agentic Intelligence — AI Governance & Workflow Modernization
 - Former Vice President, Second Line of Defense Technology & Information Security Risk, Wells Fargo
 - Retired U.S. Army Sergeant Major (E9)
 - MBA, Strategy & Leadership — Wake Forest University
