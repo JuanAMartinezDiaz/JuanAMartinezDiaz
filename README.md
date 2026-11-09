@@ -6,6 +6,10 @@ My background spans military leadership, technology operations, and independent 
 
 Today, I’m applying that experience to AI through **Bounded Agentic Intelligence (BAI)**. My focus is helping organizations improve how work gets done while keeping clear responsibility for the decisions and actions they delegate to AI.
 
+## Applied AI governance portfolio
+
+My [Sentinel case study](https://www.juanmartinez.ai/sentinel-case-study/) explains the workflow problem, my contribution, the governance decisions, and the evidence a reviewer can inspect. It links to the public controls and tests and identifies what remains unproven. The [project portfolio](PROJECTS.md) places that work alongside my other projects and their current status.
+
 ## What I’m building: Sentinel
 
 Before introducing AI into a business process, we need to understand the work: where delays occur, what gets repeated, which information needs protection, and who has authority to make decisions.

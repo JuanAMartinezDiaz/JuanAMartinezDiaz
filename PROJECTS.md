@@ -1,8 +1,12 @@
 # Project portfolio
 
-Updated October 22, 2026.
+Updated November 9, 2026.
 
 I am Juan A. Martinez Diaz, founder of **Bounded Agentic Intelligence (BAI)**. My current work focuses on Sentinel: understanding a workflow, identifying where AI may help, setting authority boundaries, and preserving evidence to evaluate the result.
+
+## Start with the case study
+
+The [Sentinel case study](https://www.juanmartinez.ai/sentinel-case-study/) explains how I defined the workflow governance problem, developed the control and validation approach, and directed prototype development. Review the [NIST outcome-to-control-and-test mapping](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/framework-alignment.md) and [November 9 verification](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/verification-2026-11-09.md) alongside the implementation. These materials demonstrate independent applied work in a synthetic reference environment.
 
 ## Sentinel Governed Workflow Twin
 
@@ -18,7 +22,7 @@ I am Juan A. Martinez Diaz, founder of **Bounded Agentic Intelligence (BAI)**. M
 | Does authorization prove execution occurred? | Decision IDs correlate policy/authority snapshots with observed execution events | JSON evidence package with blocked, successful and failed outcomes |
 | Did a proposed workflow redesign help? | Baseline-to-redesign comparison | Synthetic metrics clearly labeled illustrative |
 
-**Verified evidence:** [24 tests passed on October 20, 2026](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/actions/runs/39463516644), revision `3dd6a9dbc397b6e83991f9a7f8c1204364243215`. This is a dated result, not a claim that every future revision passes.
+**Verified evidence:** [75 Python tests and 18 browser-client tests passed on November 9, 2026](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/verification-2026-11-09.md), against runtime revision `b66ba2c6fa0e39e16f57e3e1e0102d610f6653b5`. The report records the environment, initial setup issues, and limits. The [October 20 CI run](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/actions/runs/39463516644) remains historical evidence; neither result establishes that future revisions pass.
 
 **Limits:** approval is a caller assertion, risk and confidence are declared inputs, and in-process signing does not isolate the boundary from malicious code in the same process. Production use requires authenticated approval, deployment-specific isolation, protected evidence storage, and operational acceptance.
 
