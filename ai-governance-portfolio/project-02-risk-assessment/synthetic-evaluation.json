@@ -1,0 +1,7 @@
+{
+  "evidence_type": "invented_aggregate_fixture_not_model_output",
+  "system_id": "HB-003",
+  "group_a": {"applicants": 100, "selected": 60},
+  "group_b": {"applicants": 100, "selected": 36},
+  "internal_alert_ratio": 0.8
+}

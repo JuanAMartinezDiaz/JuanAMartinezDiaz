@@ -1,8 +1,14 @@
 # Project portfolio
 
-Updated November 9, 2026.
+Updated November 10, 2026.
 
 I am Juan A. Martinez Diaz, founder of **Bounded Agentic Intelligence (BAI)**. My current work focuses on Sentinel: understanding a workflow, identifying where AI may help, setting authority boundaries, and preserving evidence to evaluate the result.
+
+## Five applied AI governance projects
+
+**[Open the AI Governance Portfolio](ai-governance-portfolio/README.md)**
+
+Original, AI-assisted financial-services case studies inspired by Taimur Ijlal's five-project learning structure. The completed examples cover an AI inventory and classification, recruitment risk review, responsible AI policy and operating model, credit-model incident tabletop, and a high-risk documentation readiness pack. Runnable checks cover bounded classification logic and synthetic calculations. These examples are not employer work or production evidence; personal review remains pending.
 
 ## Start with the case study
 

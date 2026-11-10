@@ -8,6 +8,8 @@ Today, I’m applying that experience to AI through **Bounded Agentic Intelligen
 
 ## Applied AI governance portfolio
 
+**[Five applied AI governance projects](ai-governance-portfolio/README.md)** cover inventory, risk assessment, policy, incident response, and high-risk documentation. These are AI-assisted synthetic case studies with reproducible checks, explicit evidence gaps, and source attribution; personal review is pending. They complement the Sentinel implementation below.
+
 My [Sentinel case study](https://www.juanmartinez.ai/sentinel-case-study/) explains the workflow problem, my contribution, the governance decisions, and the evidence a reviewer can inspect. It links to the public controls and tests and identifies what remains unproven. The [project portfolio](PROJECTS.md) places that work alongside my other projects and their current status.
 
 ## What I’m building: Sentinel
