@@ -1,79 +1,37 @@
 # Juan A. Martinez Diaz, MBA
 
-**Founder, Bounded Agentic Intelligence | AI Governance | Technology & Information Security Risk**
+**AI Governance & Technology Risk | Independent Risk Oversight | Control Assurance | Financial Services**
 
-My background spans military leadership, technology operations, and independent risk oversight in banking. I’m a retired U.S. Army Sergeant Major and former Wells Fargo Vice President. Across those roles, I’ve led teams, supported large technology environments, and challenged whether controls addressed the risks they were supposed to manage.
+I am a former Wells Fargo Vice President with experience in second-line technology and information security risk oversight. My work connects business objectives, risk assessments, accountable owners, and evidence that controls perform as intended.
 
-Today, I’m applying that experience to AI through **Bounded Agentic Intelligence (BAI)**. My focus is helping organizations improve how work gets done while keeping clear responsibility for the decisions and actions they delegate to AI.
+I built **Sentinel**, a public reference implementation for governing AI-agent actions, and founded **Bounded Agentic Intelligence**. My applied work explores how established risk disciplines can support AI adoption: classify the use, challenge the evidence, define authority, test the controls, and revisit the decision when conditions change.
 
-## Applied AI governance portfolio
+**Based in North Carolina. Open to remote AI governance, technology risk, and control assurance opportunities.**
 
-**[Five applied AI governance projects](ai-governance-portfolio/README.md)** cover inventory, risk assessment, policy, incident response, and high-risk documentation. These are AI-assisted synthetic case studies with reproducible checks, explicit evidence gaps, and source attribution; personal review is pending. They complement the Sentinel implementation below.
+[Contact Juan](mailto:juan@boundedagenticai.com) · [LinkedIn](https://www.linkedin.com/in/juan-martinez-diaz-50943411) · [Employer brief](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/EMPLOYER-BRIEF.md) · [Website](https://www.juanmartinez.ai)
 
-My [Sentinel case study](https://www.juanmartinez.ai/sentinel-case-study/) explains the workflow problem, my contribution, the governance decisions, and the evidence a reviewer can inspect. It links to the public controls and tests and identifies what remains unproven. The [project portfolio](PROJECTS.md) places that work alongside my other projects and their current status.
+## Start with the evidence
 
-## What I’m building: Sentinel
+| What to assess | Work sample | What it demonstrates |
+| --- | --- | --- |
+| **Risk judgment** | [AI risk assessment and executive decision](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/project-02-risk-assessment/governance-review-memo.md) | Independent challenge, residual-risk discipline, alternatives, and evidence required to reconsider a hold. |
+| **Accountability** | [Governance operating model](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/project-03-responsible-ai-policy/governance-operating-model.md) | Business ownership, validation, second-line challenge, escalation, and audit independence. |
+| **Control evidence** | [Synthetic finding-to-retest demonstration](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/evidence/control-lifecycle.md) | A documented weakness, bounded remediation, executable checks, and a restricted decision that changes when scope changes. |
+| **Agent authority** | [Sentinel code and tests](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin) | A separate reference implementation examining action boundaries, approval conditions, execution permits, and evidence records. |
 
-Before introducing AI into a business process, we need to understand the work: where delays occur, what gets repeated, which information needs protection, and who has authority to make decisions.
+**[Explore all five AI governance projects](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio)** · **[Read the portfolio's verification and limits](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/VERIFICATION.md)**
 
-Sentinel is being developed to map that workflow, identify opportunities for improvement, and define what an AI agent may do at each step. It also examines when the agent must stop, seek approval, or refer an exception to a person.
+## Experience behind the work
 
-A simple example: an agent authorized to issue a $100 refund attempts to issue $200. The action should be blocked, the exception referred for human review, and the record should explain what happened.
+- **Wells Fargo, former Vice President:** independent oversight of technology and information security risk; RCSA and control-review experience.
+- **U.S. Army technology leadership:** operational leadership, accountability, and large technology environments.
+- **MBA, Strategy & Leadership, Wake Forest University.**
+- **Applied development:** Python, workflow analysis, agent permissions, reproducible checks, and local language-model experimentation.
 
-The public Sentinel reference lets visitors explore selected controls through synthetic examples, executable checks, and recorded results. It remains under development; these demonstrations do not establish production readiness or customer savings.
+Public portfolio examples use synthetic data and were developed with AI assistance at my direction. Their [authorship and review record](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/AUTHORSHIP.md) distinguishes completed technical checks from my personal walkthrough. They contain no employer or customer records and establish no production certification or achieved customer savings.
 
-**[Explore the demonstration](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/) · [Inspect the code and tests](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin)**
+## Additional work
 
-## AI Build Lab: putting governance to work
+[Sentinel case study](https://www.juanmartinez.ai/sentinel-case-study/) · [Interactive Sentinel reference](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/) · [AI Build Lab](https://www.juanmartinez.ai/ai-build-lab) · [Project index](PROJECTS.md)
 
-I build guided missions that help people use AI on practical problems, examine the evidence, and decide what authority to delegate.
-
-### Featured mission: Career Recovery System — Mission 15
-
-This mission starts with a person's career evidence, compares it with suitable roles, and defines what an application agent may do before it acts.
-
-| Risk | How the mission addresses it | What you can inspect |
-|---|---|---|
-| AI adds an unsupported career claim | Collect supporting evidence before rewriting; flag gaps or leave the claim out | Career Evidence Record and evidence-check requirements |
-| An agent applies outside the user's requirements | Define target roles, locations, work arrangements, approved documents, and review requirements | Written application-authority requirements |
-| Applications are sent without a clear record | Record jobs reviewed and applications submitted | Job and application ledger requirements |
-
-**Evidence status:** the linked material documents the mission design and packet contents. It does not establish that an automated agent has passed these controls in an execution test.
-
-**[Explore Mission 15](https://www.juanmartinez.ai/ai-build-lab#mission-15) · [Read the design and authority requirements](https://www.juanmartinez.ai/career-recovery#authority) · [Inspect the published source](https://github.com/JuanAMartinezDiaz/juanmartinez-ai-site/blob/main/career-recovery/index.html)**
-
-Two related missions examine human judgment:
-
-- **[Mission 13: Use a Thought Partner on a Real Decision](https://www.juanmartinez.ai/ai-build-lab#mission-13)** — identify assumptions, consider contrary evidence, and record changes in reasoning.
-- **[Mission 14: Build Your Own Thought Partner](https://www.juanmartinez.ai/ai-build-lab#mission-14)** — define evidence standards, memory boundaries, and when the system must return a decision to the user.
-
-## Selected projects
-
-| Project | What you’ll find |
-|---|---|
-| **[Sentinel Governed Workflow Twin](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin)** | A public reference for testing agent authority, approval requirements, blocked actions, and execution records against a synthetic financial-services workflow. |
-| **[JuanMartinez.ai / Decision X-Ray](https://www.juanmartinez.ai)** | My website and a visual explanation of how a proposed AI action moves through authorization, approval, execution, and review. |
-| **[GuidedWork AI](https://github.com/JuanAMartinezDiaz/guidedwork-ai-beta)** | An early prototype for defining an agent’s role, assigned work, permissions, and degree of autonomy. |
-| **[Career Rebuild Navigator](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel)** | An early career-support prototype for organizing job searches, reviewing fit, and preparing applications with human review. |
-
-## How I approach the work
-
-I start with the business process and the people accountable for it. From there, I examine what AI could improve, what could go wrong, and how we would test the controls before expanding its responsibilities.
-
-For each control, I want a straightforward explanation:
-
-**Here is the risk, here is how Sentinel constrains it, and here is the evidence from the test.**
-
-These repositories document that work, including limitations and questions still being resolved. Public examples use synthetic data.
-
-## Background
-
-- **Founder, Bounded Agentic Intelligence**
-- **Former Vice President, Wells Fargo:** second line oversight of technology and information security risk
-- **Retired U.S. Army Sergeant Major (E9):** leadership in technology and operations
-- **MBA, Strategy & Leadership:** Wake Forest University
-- **Continuing education:** applied agentic AI and organizational implementation through MIT Professional Education and MIT Sloan Executive Education
-
-My current technical work includes Python, agent permissions, workflow testing, execution records, and local language-model experimentation.
-
-**[Visit juanmartinez.ai](https://www.juanmartinez.ai)**
+My approach is straightforward: identify the risk, define who has authority, and inspect the evidence before expanding an AI system's responsibilities.

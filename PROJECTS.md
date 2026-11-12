@@ -1,73 +1,42 @@
 # Project portfolio
 
-Updated November 10, 2026.
+Updated November 12, 2026.
 
-I am Juan A. Martinez Diaz, founder of **Bounded Agentic Intelligence (BAI)**. My current work focuses on Sentinel: understanding a workflow, identifying where AI may help, setting authority boundaries, and preserving evidence to evaluate the result.
+My work connects AI use cases to accountable owners, independent challenge, control evidence, and defensible decisions. The strongest entry points for an employer are the applied governance portfolio and the separate Sentinel reference implementation.
 
-## Five applied AI governance projects
+## Applied AI Governance
 
-**[Open the AI Governance Portfolio](ai-governance-portfolio/README.md)**
+**Status: published synthetic case studies with reproducible local checks.**
 
-Original, AI-assisted financial-services case studies inspired by Taimur Ijlal's five-project learning structure. The completed examples cover an AI inventory and classification, recruitment risk review, responsible AI policy and operating model, credit-model incident tabletop, and a high-risk documentation readiness pack. Runnable checks cover bounded classification logic and synthetic calculations. These examples are not employer work or production evidence; personal review remains pending.
+[Open the dedicated repository](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio) · [Employer brief](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/EMPLOYER-BRIEF.md) · [Verification](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/VERIFICATION.md)
 
-## Start with the case study
+| Competency | Work to inspect |
+| --- | --- |
+| Risk assessment and independent challenge | [Executive hold decision](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/project-02-risk-assessment/governance-review-memo.md), risk register, and evidence needed to reconsider. |
+| Accountability and decision authority | [Operating model](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/project-03-responsible-ai-policy/governance-operating-model.md), separation of duties, escalation, and a worked objection. |
+| Testing and remediation | [Synthetic control lifecycle](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/evidence/control-lifecycle.md): finding, remediation, retest, restricted decision, and revocation. |
+| Business and executive communication | [Business comparison](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/business-case/README.md) separating time, cost and effort; [management scorecard](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/MANAGEMENT-SCORECARD.md). |
+| Broader governance lifecycle | Inventory and classification, incident response, supplier evidence review, and high-risk documentation. |
 
-The [Sentinel case study](https://www.juanmartinez.ai/sentinel-case-study/) explains how I defined the workflow governance problem, developed the control and validation approach, and directed prototype development. Review the [NIST outcome-to-control-and-test mapping](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/framework-alignment.md) and [November 9 verification](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/verification-2026-11-09.md) alongside the implementation. These materials demonstrate independent applied work in a synthetic reference environment.
+The projects use a fictional financial institution, original analysis, and AI-assisted preparation. [Authorship and review status](https://github.com/JuanAMartinezDiaz/ai-governance-portfolio/blob/main/AUTHORSHIP.md) distinguishes executed checks from proposed operational controls and Juan's personal walkthrough. The five-project learning structure credits Taimur Ijlal.
 
 ## Sentinel Governed Workflow Twin
 
-**Status: public synthetic reference implementation. Proprietary production readiness is not established by this repository.**
+**Status: public synthetic reference implementation; production readiness is not established by this repository.**
 
-[Source](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin) · [Interactive reference visualization](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/) · [Run the Python demo](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/RUN_DEMO.md)
+[Case study](https://www.juanmartinez.ai/sentinel-case-study/) · [Source](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin) · [Interactive reference](https://juanamartinezdiaz.github.io/sentinel-governed-workflow-twin/) · [Run the demo](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/RUN_DEMO.md)
 
-| Risk or question | Reference control | Inspectable evidence |
-| --- | --- | --- |
-| Can an unregistered or over-delegated agent act? | Identity, delegated action, tool and risk-ceiling checks | Arbitration tests and control trace |
-| Can a consequential action proceed without approval? | Approval gate and action-bound execution permit | Missing-approval and protected-execution tests |
-| Can an action be changed after authorization? | HMAC permit and action-fingerprint binding | Permit-tampering and payload-binding tests |
-| Does authorization prove execution occurred? | Decision IDs correlate policy/authority snapshots with observed execution events | JSON evidence package with blocked, successful and failed outcomes |
-| Did a proposed workflow redesign help? | Baseline-to-redesign comparison | Synthetic metrics clearly labeled illustrative |
+Sentinel examines how a workflow can constrain an agent's proposed action through identity and delegated authority, approval requirements, signed permits, protected execution, and correlated evidence. Its [framework mapping](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/framework-alignment.md) and [dated verification](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/verification-2026-11-09.md) identify what was actually checked.
 
-**Verified evidence:** [75 Python tests and 18 browser-client tests passed on November 9, 2026](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/verification-2026-11-09.md), against runtime revision `b66ba2c6fa0e39e16f57e3e1e0102d610f6653b5`. The report records the environment, initial setup issues, and limits. The [October 20 CI run](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/actions/runs/39463516644) remains historical evidence; neither result establishes that future revisions pass.
+Public-reference limitations include asserted approval, declared risk inputs, and in-process boundaries. Production acceptance requires deployment-specific evidence. Sentinel's tests are separate from those in the five-project portfolio.
 
-**Limits:** approval is a caller assertion, risk and confidence are declared inputs, and in-process signing does not isolate the boundary from malicious code in the same process. Production use requires authenticated approval, deployment-specific isolation, protected evidence storage, and operational acceptance.
+## Additional work
 
-### Current acceptance roadmap
+| Project | Scope and current evidence |
+| --- | --- |
+| [JuanMartinez.ai / Decision X-Ray](https://www.juanmartinez.ai) | Public writing and interactive explanations of proposed action, authority, approval, execution, and review. Visualization is distinct from backend enforcement. |
+| [AI Build Lab](https://www.juanmartinez.ai/ai-build-lab) | Guided applied-AI missions with explicit evidence and authority requirements. |
+| [GuidedWork AI](https://github.com/JuanAMartinezDiaz/guidedwork-ai-beta) | Early agent-configuration prototype exploring role, mission, autonomy, memory, and permissions. |
+| [Career Rebuild Navigator](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel) | Career-support workflow prototype with browser-based rules and human review; LLM integration remains a roadmap item. |
 
-| Workstream | Current public basis | Exit evidence |
-| --- | --- | --- |
-| Complete owner journey | [Issue 3](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/issues/3); acceptance pending | Dated end-to-end evidence for the actual proprietary build |
-| Synthetic workflow ingestion | [Issue 4](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/issues/4); design specification | Validated workflow representation, provenance, unknowns and owner review |
-| Fidelity and scenario coverage | [Issue 5](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/issues/5); acceptance specification | Six deterministic fixtures and traceable findings on the actual deployment |
-| Optional maturity assessment | [Issue 6](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/issues/6); planned | Evidence-backed rubric and reproducible tests before exposure |
-| Release decision | [Readiness framework](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/release-readiness-framework.md) | Named reviewer, accepted limitations and explicit release decision |
-
-## Decision X-Ray and JuanMartinez.ai
-
-**Status: public publishing and interactive visualization.**
-
-[Website](https://www.juanmartinez.ai) · [Source](https://github.com/JuanAMartinezDiaz/juanmartinez-ai-site)
-
-Decision X-Ray makes the proposal, authorization, approval, permit, action and evidence path visible. The visualization supports explanation; it does not itself establish backend enforcement. The website repository also contains AI governance writing and AI Build Lab work.
-
-## GuidedWork AI and ProAgent Local
-
-**Status: early product and agent-configuration prototypes.**
-
-[Source](https://github.com/JuanAMartinezDiaz/guidedwork-ai-beta)
-
-Explores explicit role, mission, autonomy, memory and permission configuration with JSON profile export. Local-model integration and stronger execution boundaries remain roadmap items.
-
-## Career Rebuild Navigator
-
-**Status: career-support workflow prototype with browser-based rule logic.**
-
-[Current workflow source](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator-vercel) · [Earlier prototype](https://github.com/JuanAMartinezDiaz/career-rebuild-navigator)
-
-Explores job-fit review, CV review, application preparation and case management with human review. The current README identifies LLM integration as planned; this portfolio does not present the rule-based MVP as a deployed LLM agent.
-
-## Review standard
-
-Here is the risk, here is how Sentinel constrains it, and here is the evidence from the test.
-
-Public examples use synthetic data. Private repositories, proprietary implementation details, credentials, and employer or client records are outside this portfolio.
+Public artifacts contain no employer or client records. Contact: [juan@boundedagenticai.com](mailto:juan@boundedagenticai.com).
