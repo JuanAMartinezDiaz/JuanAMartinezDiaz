@@ -28,6 +28,8 @@ The projects use a fictional financial institution, original analysis, and AI-as
 
 Sentinel examines how a workflow can constrain an agent's proposed action through identity and delegated authority, approval requirements, signed permits, protected execution, and correlated evidence. Its [framework mapping](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/framework-alignment.md) and [dated verification](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/verification-2026-11-09.md) identify what was actually checked.
 
+Supporting model research: [Hugging Face model evaluation](https://github.com/JuanAMartinezDiaz/sentinel-governed-workflow-twin/blob/main/docs/hugging-face-model-evaluation.md). This separate local synthetic comparison documents model provenance, failure patterns, and a decision to continue evaluation before autonomous governance use.
+
 Public-reference limitations include asserted approval, declared risk inputs, and in-process boundaries. Production acceptance requires deployment-specific evidence. Sentinel's tests are separate from those in the five-project portfolio.
 
 ## Additional work
